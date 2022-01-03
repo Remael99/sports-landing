@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         ...colors,
       },
+      backgroundImage: {
+        "banner-background": "url('/image/banner.jpg')",
+      },
     },
   },
   plugins: [],
