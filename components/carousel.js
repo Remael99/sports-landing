@@ -80,7 +80,6 @@ export default function Carousel({ carouselData }) {
             }   bottom-0 left-0 right-0 m-auto mb-0 top-full text-3xl `}
             onClick={() => setDotsSlide(index)}
           >
-            {console.log("all index", index, "curr position", currentSlide)}
             <BsDot />
           </button>
         ))}
