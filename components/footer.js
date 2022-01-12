@@ -34,7 +34,7 @@ export default function Footer() {
         <div className="w-full md:w-1/3 text-gray-200">
           {" "}
           <h4 className="font-bold text-lg">Quick links</h4>{" "}
-          <ul className="text-gray-50 flex flex-col gap-1">
+          <ul className="w-full md:w-0 text-gray-50 flex flex-col gap-1">
             <Link href="/collection">
               <li>
                 {" "}
