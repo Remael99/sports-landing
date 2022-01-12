@@ -56,7 +56,7 @@ export default function Header() {
             <div
               className={`${
                 open ? "flex" : "hidden"
-              }lg:flex gap-4 font-semibold w-full h-auto flex-col `}
+              }lg:flex gap-4 font-semibold w-full h-auto flex flex-col mt-2 lg:mt-0 `}
             >
               <button className="font-semibold">Login</button>
               <button className="bg-black text-gray-300 py-2 rounded-lg px-4 font-semibold">
